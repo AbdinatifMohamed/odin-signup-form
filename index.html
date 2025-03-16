@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="sidebar__icon">
+                <img src="assets/odin-lined.png" alt="" class="icon">
+            </div>
+        </div>
+        <div class="hero">
+            <div class="desc">
+                <p>This is not a real online service! You know you need something
+                    like this in your life to help you realize your deepest dreams.
+                    Sign up now to get started.
+                    You know you want to.</p>
+            </div>
+            <div class="form">
+                <h2 class="form__title">
+                    Let's do this!
+                </h2>
+                <form id="sign-up-form">
+                    <div class="form__left">
+                        <label for="firstname">FIRST NAME</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Enter your first name...">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email..">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" placeholder="Enter your password..">
+                    </div>
+                    <div class="form__right">
+                        <label for="lastname">LAST NAME</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Enter your last name...">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" name="phone" id="phone" placeholder="Enter your phone number..">
+                        <label for="password">CONFIRM PASSWORD</label>
+                        <input type="password" name="password" id="password" placeholder="Enter your password again..">
+                    </div>
+                </form>
+            </div>
+            <div class="form__end">
+                <button class="form__submit" type="submit" form="sign-up-form">Create Account</button>
+                <p class="form__alt">Aready have an account? <a class="form__signin">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
