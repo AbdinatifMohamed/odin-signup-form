@@ -4,3 +4,39 @@
     padding: 0;
 }
 
+html, body { 
+    height: 100vh;  
+}
+
+.main {
+    display: flex;   
+    height: 100%;
+}
+
+
+.sidebar {
+    flex: 1;
+    background: url('/assets/halie-west-25xggax4bSA-unsplash.jpg');
+    background-size: cover;
+}
+
+.sidebar__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .5);
+    height: 8rem;
+}
+
+.sidebar__icon img {
+    height: 100%;
+}
+
+.sidebar__icon h1 {
+    color: #fff;
+    
+}
+
+.hero {
+    flex: 2;
+}
