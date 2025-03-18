@@ -18,7 +18,7 @@ html, body {
 
 .sidebar {
     flex: 1;
-    background: url('/assets/halie-west-25xggax4bSA-unsplash.jpg');
+    background: url("assets/halie-west-25xggax4bSA-unsplash.jpg");
     background-size: cover;
 }
 
